@@ -21,4 +21,16 @@
 * empregar um repositório no GitHub para disponibilização dos códigos; A personalização consiste em passar nomes de funções para Português (ou Inglês mais legível), nomes de variáveis, etc.;
 * avaliar o tempo de execução do programa variando o número de threads;
 * ajustar o número de iterações para que o tempo de execução seja oportuno para uma avaliação, considerando o poder do equipamento utilizado.
-  
+
+### Código Módificado:
+~~~C
+
+~~~
+
+#### Tempo de execução:
+* 1 Thread:
+* 2 Threads:
+* 3 Threads:
+* 4 Threads:
+
+#### Ajustando o número de iterações:

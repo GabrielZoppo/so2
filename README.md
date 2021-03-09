@@ -72,7 +72,7 @@ void *GeraThreads(void *threadid)
 int main (int argc, char *argv[])
 {
     pthread_t threads[Numero_THREADS];
-    int rc;
+    int codigo_Retorno;
     long t;
     long ti, tempog;
     void *status;
@@ -113,8 +113,8 @@ int main (int argc, char *argv[])
    for(t=0; t<Numero_THREADS; t++){
       printf("In main: creating thread %ld\n", t);
       rc = pthread_create(&threads[t], &attr, GeradorThreads, (void *)t);
-      if (rc){
-         printf("ERROR; return code from pthread_create() is %d\n", rc);
+      if (codigo_Retorno){
+         printf("ERROR; return code from pthread_create() is %d\n", codigo_Retorno);
          exit(-1);
       }
    }

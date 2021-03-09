@@ -35,7 +35,7 @@
 int vg;
 pthread_mutex_t lock;
 
-void *PrintHello(void *threadid)
+void *GeraThreads(void *threadid)
 {
    long k, Numero_Pontos;
    float resultado;
@@ -112,7 +112,7 @@ int main (int argc, char *argv[])
 
    for(t=0; t<Numero_THREADS; t++){
       printf("In main: creating thread %ld\n", t);
-      rc = pthread_create(&threads[t], &attr, PrintHello, (void *)t);
+      rc = pthread_create(&threads[t], &attr, GeradorThreads, (void *)t);
       if (rc){
          printf("ERROR; return code from pthread_create() is %d\n", rc);
          exit(-1);

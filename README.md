@@ -8,8 +8,8 @@
 
 ## Primeira Atividade - Programando com PThreads
 * Fundamentação Técnico-Científica:
-* https://computing.llnl.gov/tutorials/pthreads/
-* http://pages.cs.wisc.edu/~travitch/pthreads_primer.html
+* <a href="https://computing.llnl.gov/tutorials/pthreads/" target="_blank">Pthreads</a>
+* <a href="hhttp://pages.cs.wisc.edu/~travitch/pthreads_primer.html" target="_blank">Pthreads</a>
 ### Atividade Prática:
 * <a href="/soii/lib/exe/fetch.php?media=pt_join.zip" download>pt_join.zip</a>
 * Para compilar utilizar:

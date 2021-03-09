@@ -33,7 +33,7 @@
 #define Numero_THREADS     4
 
 int vg;
-pthread_mutex_t lock;
+pthread_mutex_t trava;
 
 void *GeraThreads(void *threadid)
 {
@@ -47,7 +47,7 @@ void *GeraThreads(void *threadid)
    
    Numero_Pontos=1000000000/Numero_THREADS;
 
-   for (k=0; k<TP; k++){
+   for (k=0; k<Numero_Pontos; k++){
    resultado = sin(1.77)*cos(.99);
    }
     
@@ -112,7 +112,7 @@ int main (int argc, char *argv[])
 
    for(t=0; t<Numero_THREADS; t++){
       printf("In main: creating thread %ld\n", t);
-      rc = pthread_create(&threads[t], &attr, GeradorThreads, (void *)t);
+      codigo_Retorno = pthread_create(&threads[t], &attr, GeraThreads, (void *)t);
       if (codigo_Retorno){
          printf("ERROR; return code from pthread_create() is %d\n", codigo_Retorno);
          exit(-1);

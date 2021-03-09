@@ -7,7 +7,7 @@
 * Google Meet
 
 ## Primeira Atividade - Programando com PThreads
-* Fundamentação Técnico-Científica:
+### Fundamentação Técnico-Científica:
 * <a href="https://computing.llnl.gov/tutorials/pthreads/" target="_blank">Pthreads</a>
 * <a href="http://pages.cs.wisc.edu/~travitch/pthreads_primer.html" target="_blank">Pthreads</a>
 ### Atividade Prática:

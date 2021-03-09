@@ -11,7 +11,7 @@
 * <a href="https://computing.llnl.gov/tutorials/pthreads/" target="_blank">Pthreads</a>
 * <a href="http://pages.cs.wisc.edu/~travitch/pthreads_primer.html" target="_blank">Pthreads</a>
 ### Atividade Prática:
-* <a href="/soii/lib/exe/fetch.php?media=pt_join.zip" download>Código para baixar</a>
+* <a href="/soii/lib/exe/fetch.php?media=pt_join.zip" download>Código</a>
 * Para compilar utilizar:
 * gcc -g -Wall -pthread pt_join.c -lpthread -o pt_join
 ### Discussão em Aula:**

@@ -24,17 +24,22 @@
 
 ### Código Módificado:
 ~~~C
+// declarando as bibliotecas usadas
 #include <unistd.h>
 #include <stdlib.h>
 #include <pthread.h>
 #include <math.h>
 #include <stdio.h>
 #include <time.h>
+
+// definindo uma variavel global de controle
 #define Numero_THREADS     4
 
+// declarando variaves globais
 int vg;
 pthread_mutex_t trava;
 
+// criação de uma função para realizar o calculo pedido
 void *GeraThreads(void *threadid)
 {
    long k, Numero_Pontos;
@@ -45,7 +50,7 @@ void *GeraThreads(void *threadid)
 
    printf("\nIniciou, thread #%ld!\n", tid);
    
-   Numero_Pontos=1000000000/Numero_THREADS;
+   Numero_Pontos=1000000000/Numero_THREADS; 
 
    for (k=0; k<Numero_Pontos; k++){
    resultado = sin(1.77)*cos(.99);
@@ -68,9 +73,10 @@ void *GeraThreads(void *threadid)
    pthread_exit(NULL);
 }
 
-
+//função main para executar as funções declaradas anteriormente
 int main (int argc, char *argv[])
 {
+//declaração das variaveis necessárias
     pthread_t threads[Numero_THREADS];
     int codigo_Retorno;
     long t;
@@ -80,7 +86,7 @@ int main (int argc, char *argv[])
     time_t inicio, fim, reghora;
     struct tm *tmptr;
     
-    
+// Rotina para o testar se o programa iniciou e começar a contar o tempo para termino da tarefa
     printf("\n\nPrograma principal iniciou\n\n");
     
     reghora = time(NULL);
@@ -97,12 +103,12 @@ int main (int argc, char *argv[])
     }
 
 
-/* Bloqueia o inicio das threads ateh que todas sejam criadas */
+// Bloqueia o inicio das threads ateh que todas sejam criadas 
 
     pthread_mutex_lock(&trava);
 
 
-/* cria as threads */
+// cria as threads 
 
    vg = 0;
 
@@ -120,12 +126,12 @@ int main (int argc, char *argv[])
    }
     
 
-/* liberas as threads para iniciarem */
+// liberas as threads para iniciarem 
  
     pthread_mutex_unlock(&trava);
 
 
-/* Rotina para esperar que todas threads terminem */
+// Rotina para esperar que todas threads terminem 
 
  	pthread_attr_destroy(&attr);
 
@@ -135,13 +141,15 @@ int main (int argc, char *argv[])
 
 
     fim=time(NULL);
-    
+
+// Rotina para calcular o tempo total de execução do programa
     reghora = time(NULL);
     tmptr = localtime(&reghora);
     printf("\nhorario fim: %s", asctime(tmptr));
     
     fprintf(stdout, "Tempo Gasto = %f\n\n", difftime(fim, inicio));
 
+// fim do programa
     pthread_exit(NULL);
     pthread_mutex_destroy(&trava);
 }
@@ -149,8 +157,6 @@ int main (int argc, char *argv[])
 ~~~
 
 #### Tempo de execução:
-* 1 Thread:
-* 2 Threads:
 * 3 Threads:
 * 4 Threads:
 

@@ -15,7 +15,7 @@
 * Para compilar utilizar:
 * gcc -g -Wall -pthread pt_join.c -lpthread -o pt_join
 ### Discussão em Aula:**
-* Data: 09/03/2020
+* Data: 09/03/2021
 ### Metodologia: 
 * explicar o código personalizado para os colegas; 
 * empregar um repositório no GitHub para disponibilização dos códigos; A personalização consiste em passar nomes de funções para Português (ou Inglês mais legível), nomes de variáveis, etc.;

@@ -156,8 +156,12 @@ int main (int argc, char *argv[])
 
 ~~~
 
-#### Tempo de execução:
-* 3 Threads:
-* 4 Threads:
-
-#### Ajustando o número de iterações:
+## Segunda Atividade - Explorando conceitos introdutórios em Sistemas Embarcados
+### Responder as perguntas abaixo, considerando o texto de Edna Barros e Sérgio Cavalcante da UFPE <a href="http://www.cin.ufpe.br/~vba/periodos/8th/s.e/aulas/STP%20-%20Intro%20Sist%20Embarcados.pdf" target="_blank">Introdução aos Sistemas Embarcados</a> 
+* Data da discussão em aula: 16/03/2021
+#### Perguntas:
+* Caracterize a diferença entre sistemas computacionais convencionais e os sistemas computacionais embarcados.
+* Resuma as características dos sistemas embarcados.
+* Porque em sistemas embarcados é possível ter algumas funções implementadas diretamente em hardware?
+* Explique a razão pela qual não se emprega processadores de propósito geral no desenvolvimento de sistemas embarcados.
+* Resuma as diferenças entre os microcontroladores e os processadores de propósito geral (item 2.1.2).

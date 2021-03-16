@@ -14,7 +14,7 @@
 * <a href="/soii/lib/exe/fetch.php?media=pt_join.zip" download>Código</a>
 * Para compilar utilizar:
 * gcc -g -Wall -pthread pt_join.c -lpthread -o pt_join
-### Discussão em Aula:**
+### Discussão em Aula:
 * Data: 09/03/2021
 ### Metodologia: 
 * explicar o código personalizado para os colegas; 

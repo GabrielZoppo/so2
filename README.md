@@ -155,6 +155,22 @@ int main (int argc, char *argv[])
 }
 
 ~~~
+### Tabela com mudança de valores:
+Número de Threads | Número de Pontos        | Tempo de Reação |
+:----------------:|:-----------------------:|:---------------:|
+4                 |10<sup>12</sup>          |                 |
+4                 |10<sup>11</sup>          |                 |
+4                 |10<sup>10</sup>          |                 |
+3                 |10<sup>12</sup>          |                 |
+3                 |10<sup>11</sup>          |                 |
+3                 |10<sup>10</sup>          |                 |
+2                 |10<sup>12</sup>          |                 |
+2                 |10<sup>11</sup>          |                 |
+2                 |10<sup>10</sup>          |                 |
+1                 |10<sup>12</sup>          |                 |
+1                 |10<sup>11</sup>          |                 |
+1                 |10<sup>10</sup>          |                 |
+
 
 ## Segunda Atividade - Explorando conceitos introdutórios em Sistemas Embarcados
 ### Responder as perguntas abaixo, considerando o texto de Edna Barros e Sérgio Cavalcante da UFPE - <a href="http://www.cin.ufpe.br/~vba/periodos/8th/s.e/aulas/STP%20-%20Intro%20Sist%20Embarcados.pdf" target="_blank">Introdução aos Sistemas Embarcados</a> 

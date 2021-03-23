@@ -156,20 +156,20 @@ int main (int argc, char *argv[])
 
 ~~~
 ### Tabela com mudança de valores:
-Número de Threads | Número de Pontos        | Tempo de Reação |
-:----------------:|:-----------------------:|:---------------:|
-4                 |10<sup>12</sup>          |                 |
-4                 |10<sup>11</sup>          |                 |
-4                 |10<sup>10</sup>          |                 |
-3                 |10<sup>12</sup>          |                 |
-3                 |10<sup>11</sup>          |                 |
-3                 |10<sup>10</sup>          |                 |
-2                 |10<sup>12</sup>          |                 |
-2                 |10<sup>11</sup>          |                 |
-2                 |10<sup>10</sup>          |                 |
-1                 |10<sup>12</sup>          |                 |
-1                 |10<sup>11</sup>          |                 |
-1                 |10<sup>10</sup>          |                 |
+Número de Threads | Número de Iterações        | Tempo de Reação                    |
+:----------------:|:--------------------------:|:----------------------------------:|                                   
+4                 |10<sup>12</sup>             |                 		    |                                    
+4                 |10<sup>11</sup>             |                 		    |                                    
+4                 |10<sup>10</sup>             |                 		    |					
+3                 |10<sup>12</sup>             |                 		    |					
+3                 |10<sup>11</sup>             |                 		    |					
+3                 |10<sup>10</sup>             |                 		    |					
+2                 |10<sup>12</sup>             |                 		    |					
+2                 |10<sup>11</sup>             |                 		    |					
+2                 |10<sup>10</sup>             |                 		    |					
+1                 |10<sup>12</sup>             |                 		    |					
+1                 |10<sup>11</sup>             |                 		    |					
+1                 |10<sup>10</sup>             |                 		    |					
 
 
 ## Segunda Atividade - Explorando conceitos introdutórios em Sistemas Embarcados

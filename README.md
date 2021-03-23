@@ -157,7 +157,7 @@ int main (int argc, char *argv[])
 ~~~
 ### Tabela com mudança de valores:
 Número de Threads | Número de Iterações        | Tempo de Reação Compilador online  | Tempo de Reação PC |
-:----------------:|:--------------------------:|:----------------------------------:|                    |              
+:----------------:|:--------------------------:|:----------------------------------:|:------------------:|              
 4                 |10<sup>10</sup>             |1m 34s                 		    |                    |             
 4                 |10<sup>9</sup>              |9s                 		    |                    |                
 4                 |10<sup>8</sup>              |1s                 		    |			 |		

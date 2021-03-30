@@ -158,18 +158,18 @@ int main (int argc, char *argv[])
 ### Tabela com mudança de valores:
 Número de Threads | Número de Iterações        | Tempo de Reação PC  |
 :----------------:|:--------------------------:|:-------------------:|              
-4                 |10<sup>12</sup>             |                     |                                
-4                 |10<sup>11</sup>             |                     |                                    
-4                 |10<sup>10</sup>             |                     |  			 		
-3                 |10<sup>12</sup>             |                     |			 		
-3                 |10<sup>11</sup>             |                     |			 		
-3                 |10<sup>10</sup>             |                     |			 		
-2                 |10<sup>12</sup>             |                     |			 		
-2                 |10<sup>11</sup>             |                     |			 		
-2                 |10<sup>10</sup>             |                     |			 		
-1                 |10<sup>12</sup>             |                     |			 		
-1                 |10<sup>11</sup>             |                     |			 		
-1                 |10<sup>10</sup>             |                     |					
+4                 |10<sup>12</sup>             |3 minutos            |                                
+4                 |10<sup>11</sup>             |20 segundos          |                                    
+4                 |10<sup>10</sup>             |2 segundos           |  			 		
+3                 |10<sup>12</sup>             |3.50 minutos         |			 		
+3                 |10<sup>11</sup>             |22 segundos          |			 		
+3                 |10<sup>10</sup>             |2 segundos           |			 		
+2                 |10<sup>12</sup>             |4.20 minutos         |			 		
+2                 |10<sup>11</sup>             |25 segundos          |			 		
+2                 |10<sup>10</sup>             |3 segundos           |			 		
+1                 |10<sup>12</sup>             |6.4 minutos          |			 		
+1                 |10<sup>11</sup>             |40 segundos          |			 		
+1                 |10<sup>10</sup>             |5 segundos           |					
 
 
 ## Segunda Atividade - Explorando conceitos introdutórios em Sistemas Embarcados

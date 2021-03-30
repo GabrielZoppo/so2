@@ -189,3 +189,23 @@ Número de Threads | Número de Iterações        | Tempo de Reação PC  |
 *
 *
 
+## Terceira Atividade - Explorarando conceitos relacionando sistemas operacionais e sistemas embarcados.
+* Deadline: 30/03/2021
+* Metodologia: Cada aluno irá elaborar 5 perguntas que explorem o tópico sob sua responsabilidade, tendo por base o texto
+* <a href="http://repositorio.utfpr.edu.br/jspui/bitstream/1/324/1/CT_CPGEI_M_Moroz,%20Maiko%20Rossano_2011.pdf" target="_blank">Introdução aos Sistemas Embarcados</a>
+
+### Perguntas:
+* Todos os sistemas embarcados são compostos por hardware e software do que compreende software e hardware?
+* Qual é a função do sistema embarcado e como ele é feito?
+* O que são requisitos funcionais e não funcionais?
+* Os sistemas embarcados podem ser classificados em três categorias quanto aos requisitos temporais quais são eles?
+* Friedrich descreveu alguns requisitos não-funcionais que devem ser considerados em sistemas embarcados, Cite alguns deles?
+
+### Respostas:
+*
+*
+*
+*
+*
+
+

@@ -156,20 +156,18 @@ int main (int argc, char *argv[])
 
 ~~~
 ### Tabela com mudança de valores:
-Número de Threads | Número de Iterações        | Tempo de Reação PC  |
-:----------------:|:--------------------------:|:-------------------:|              
-12                |10<sup>12</sup>             |                     |                                
-12                |10<sup>11</sup>             |                     |                                    
-10                |10<sup>12</sup>             |                     |  			 		
-10                |10<sup>11</sup>             |                     |			 		
-8                 |10<sup>12</sup>             |                     |			 		
-8                 |10<sup>11</sup>             |                     |			 		
-6                 |10<sup>12</sup>             |                     |			 		
-6                 |10<sup>11</sup>             |                     |			 		
-4                 |10<sup>12</sup>             |                     |			 		
-4                 |10<sup>11</sup>             |                     |			 		
-2                 |10<sup>12</sup>             |                     |			 		
-2                 |10<sup>11</sup>             |                     |					
+Número de Threads | Número de Iterações        | Tempo de Reação PC    |
+:----------------:|:--------------------------:|:---------------------:|              			 		
+6                 |10<sup>11</sup>             |166 segundos           |			 		
+4                 |10<sup>11</sup>             |167 segundos           |			 		
+2                 |10<sup>11</sup>             |166 segundos           |
+
+
+Número de Threads | Número de Iterações        | Tempo de Reação PC    |
+:----------------:|:--------------------------:|:---------------------:|
+6                 |10<sup>10</sup>             |                       |			 		
+4                 |10<sup>10</sup>             |                       |			 		
+2                 |10<sup>10</sup>             |                       |					
 
 
 ## Segunda Atividade - Explorando conceitos introdutórios em Sistemas Embarcados

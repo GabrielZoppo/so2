@@ -165,9 +165,9 @@ Número de Threads | Número de Iterações        | Tempo de Reação PC    |
 
 Número de Threads | Número de Iterações        | Tempo de Reação PC    |
 :----------------:|:--------------------------:|:---------------------:|
-6                 |10<sup>10</sup>             |                       |			 		
-4                 |10<sup>10</sup>             |                       |			 		
-2                 |10<sup>10</sup>             |                       |					
+6                 |10<sup>10</sup>             |16 segundos            |			 		
+4                 |10<sup>10</sup>             |16 segundos            |			 		
+2                 |10<sup>10</sup>             |17 segundos            |					
 
 
 ## Segunda Atividade - Explorando conceitos introdutórios em Sistemas Embarcados

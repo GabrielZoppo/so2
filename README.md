@@ -200,10 +200,16 @@ Número de Threads | Número de Iterações        | Tempo de Reação PC    |
 * Friedrich descreveu alguns requisitos não-funcionais que devem ser considerados em sistemas embarcados, Cite alguns deles?
 
 ### Respostas:
-*
-*
-*
-*
-*
+* O hardware Compreende processador, memórias e periféricos. O software é o programa executado pelo
+processador, podendo incluir um sistema operacional.
+* Um sistema embarcado é inserido em um ambiente para monitorar ou controlar as
+funções deste. A interface com esse ambiente para a leitura de informações é feita através de
+sensores (por exemplo, temperatura, umidade, pressão, movimento, tensão e corrente elétrica,
+etc.) e o controle através de atuadores (motores, solenoides, relés, válvulas, etc.).
+
+* Os requisitos funcionais definem a utilidade do sistema, isto é, são as descrições das atividades que o sistema deve ser capaz de executar. De maneira geral, requisitos funcionais especificam o que o sistema deve fazer.
+Os requisitos não-funcionais estão relacionados às propriedades do sistema, em vez de funções específicas deste. Geralmente, requisitos não-funcionais definem as qualidades do sistema, ou como este deve ser.
+* sem tempo real (non-real-time), tempo real brando (soft real-time) e tempo real rígido (hard real-time).
+* Limitação de recursos,Tempo real, Confiabilidade,Robustez,Gerenciamento de falhas,Proteção,Segurança,Privacidade e Escalabilidade.
 
 

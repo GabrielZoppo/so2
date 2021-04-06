@@ -209,7 +209,7 @@ etc.) e o controle através de atuadores (motores, solenoides, relés, válvulas
 
 * Os requisitos funcionais definem a utilidade do sistema, isto é, são as descrições das atividades que o sistema deve ser capaz de executar. De maneira geral, requisitos funcionais especificam o que o sistema deve fazer.
 Os requisitos não-funcionais estão relacionados às propriedades do sistema, em vez de funções específicas deste. Geralmente, requisitos não-funcionais definem as qualidades do sistema, ou como este deve ser.
-* sem tempo real (non-real-time), tempo real brando (soft real-time) e tempo real rígido (hard real-time).
+* Sem tempo real (non-real-time), tempo real brando (soft real-time) e tempo real rígido (hard real-time).
 * Limitação de recursos,Tempo real, Confiabilidade,Robustez,Gerenciamento de falhas,Proteção,Segurança,Privacidade e Escalabilidade.
 
 

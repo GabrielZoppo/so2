@@ -212,4 +212,6 @@ Os requisitos não-funcionais estão relacionados às propriedades do sistema, e
 * Sem tempo real (non-real-time), tempo real brando (soft real-time) e tempo real rígido (hard real-time).
 * Limitação de recursos,Tempo real, Confiabilidade,Robustez,Gerenciamento de falhas,Proteção,Segurança,Privacidade e Escalabilidade.
 
+### Quarta Atividade - TinyOS
+Link da apresentação sobre [TinyOS](https://docs.google.com/presentation/d/1LMW7lQWmrGdc2XKECGgtUpeXhmR_JsXAPeCmvm4D7QE/edit?usp=sharing)
 

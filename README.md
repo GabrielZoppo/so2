@@ -213,5 +213,5 @@ Os requisitos não-funcionais estão relacionados às propriedades do sistema, e
 * Limitação de recursos,Tempo real, Confiabilidade,Robustez,Gerenciamento de falhas,Proteção,Segurança,Privacidade e Escalabilidade.
 
 ### Quarta Atividade - TinyOS
-Link da apresentação sobre <img src="file:///C:/Users/usuario/Downloads/TinyOS%20-%20Gabriel%20Harter%20Zoppo%20(4).pdf" alt="TinyOS" width="4200" height="4200">
+Link da apresentação sobre [TinyOS](https://docs.google.com/presentation/d/1LMW7lQWmrGdc2XKECGgtUpeXhmR_JsXAPeCmvm4D7QE/edit?usp=sharing)
 

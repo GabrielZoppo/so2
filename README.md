@@ -221,5 +221,5 @@ Link da apresentação sobre [TinyOS](https://docs.google.com/presentation/d/1LM
 * Deadline: 25/05/2021
 * Duração: 15 minutos
 * Observação: Tanto a apresentação, como as perguntas deverão ser postadas no repositório gerenciado pelo aluno responsável pelo tópico.
- ### Resultado: 
+ ### Apresentação: 
  * [pdf e perguntas](https://github.com/GabrielZoppo/so2/blob/main/Modelo%20De%20Tarefas%20(1).pdf)

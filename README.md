@@ -217,4 +217,4 @@ Link da apresentação sobre [TinyOS](https://docs.google.com/presentation/d/1LM
 
 ## Segundo trimestre:
  ### 1º Atividade:
- * [pdf e perguntas]()
+ * [pdf e perguntas](https://github.com/GabrielZoppo/so2/blob/main/Modelo%20De%20Tarefas%20(1).pdf)

@@ -217,4 +217,8 @@ Link da apresentação sobre [TinyOS](https://docs.google.com/presentation/d/1LM
 
 ## Segundo trimestre:
  ### 1º Atividade:
- * [pdf e perguntas](https://github.com/GabrielZoppo/so2/blob/main/Modelo%20De%20Tarefas%20(1).pdf)
+ * Objetivo: A Quinta Atividade tem por objetivo explorar os fundamentos relacionados aos Sistemas Operacionais de Tempo Real. Cada aluno irá elaborar 5 perguntas sobre o tópico que ficar responsável. Para que os colegas possam responder as perguntas com total entendimento, também deverá ser feita uma apresentação explicando o tópico. A partir da apresentação deverá ser possível, consultando o texto, responder as perguntas feitas.
+* Deadline: 25/05/2021
+* Duração: 15 minutos
+* Observação: Tanto a apresentação, como as perguntas deverão ser postadas no repositório gerenciado pelo aluno responsável pelo tópico.
+  * [pdf e perguntas](https://github.com/GabrielZoppo/so2/blob/main/Modelo%20De%20Tarefas%20(1).pdf)

@@ -215,3 +215,6 @@ Os requisitos não-funcionais estão relacionados às propriedades do sistema, e
 ### Quarta Atividade - TinyOS
 Link da apresentação sobre [TinyOS](https://docs.google.com/presentation/d/1LMW7lQWmrGdc2XKECGgtUpeXhmR_JsXAPeCmvm4D7QE/edit?usp=sharing)
 
+## Segundo trimestre:
+ ### 1º Atividade:
+ * [pdf e perguntas]()
